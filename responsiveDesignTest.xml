@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ResponsiveDesignTest2" parallel="classes" thread-count="3">
+    <!--<suite name="Regression">-->
+
+
+    <test name="place-order">
+        <parameter name="browser" value="chrome" />
+        <parameter name="dimension" value="375x667" />
+        <classes>
+            <class name="test.ResponsiveDesignTest"/>
+
+        </classes>
+    </test>
+</suite>
